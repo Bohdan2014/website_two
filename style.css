@@ -1,0 +1,703 @@
+body{
+    width:1200px;
+    margin: 0 auto;
+}
+
+
+p{
+    font-size: 16px;
+    font-family: "Arial", Georgia, Serif;
+}
+
+
+
+h1{
+     line-height:  1em;
+    font-family: "Arial", Georgia, Serif;
+    font-weight:normal;
+}
+
+h2{
+     line-height:  1em;
+    font-family: "Arial", Georgia, Serif;
+    font-weight:normal;
+}
+
+h4{
+    line-height:  0;
+      font-family: "Times New Roman", Georgia, Serif;
+      font-weight:normal;
+}
+
+h5{
+    line-height:  0;
+      font-family: "Times New Roman", Georgia, Serif;
+      font-weight:normal;
+      margin-top: 1%;
+      font-size: 18px;
+}
+
+ .line { 
+    border-left: 2px solid #ccc;
+    margin-left: 20px; 
+    padding-left: 10px; 
+   }
+   
+   .line2 { 
+    border-left: 2px solid #ccc; 
+    padding-left: 10px; 
+   }
+   
+   .line3 { 
+    border-left: 2px solid #ccc;
+    margin-left: 20px; 
+    padding-left: 55px; 
+   }
+   
+    .line4 { 
+    border-right: 2px solid #ccc; 
+    padding-right: 145px; 
+   }
+   
+ 
+   
+   .line_right{
+    border-right: 2px solid red; 
+   }
+   
+   span{
+       font-size: 14px;
+        font-family: "Arial", Georgia, Serif;
+   }   
+   
+   .button{
+    background-color: #bf2a4f;
+    color: white;
+    height: 24px;
+    width: 78px; 
+    border:1px solid  #bf2a4f;
+    border-radius: 10px;
+}
+
+  .button2{
+    background-color: #9d2823;
+    color: white;
+    height: 34px;
+    width: 122px; 
+    border: 1px solid #9d2823;
+    
+}
+
+  .button3{
+    background-color: #9d2823;
+    color: white;
+    height: 34px;
+    width: 195px; 
+    border: 1px solid #9d2823;
+    
+}
+   
+
+                                          /*menu_horizontal*/
+    .topmenu {
+    width: 100%;
+    color:silver;
+    }
+
+    .topmenu ul{
+    list-style-type: none;
+    
+    }
+
+    .topmenu li{
+        
+    float: left; 
+    font-family: Arial, sent-serif;
+    font-size: 20px;
+    text-align: center;
+    border-top: 3px solid silver;
+    border-bottom: 1px solid silver;
+    padding-left: 7px;
+    padding-right: 6px;
+   color:black;
+    }
+    
+    .topmenu li a{
+    text-decoration: none;
+    color:silver;
+    }
+
+    .topmenu li a:hover{
+        color:black;
+    }
+    
+                                     
+                                   /*menu_horizontal*/
+     .menu_vertical{
+width: 400px;
+}
+
+.menu_vertical ul{
+list-style-type: none; /*Забрати маркери*/
+padding: 0; /*Відступи з ліва*/
+margin: 0 auto; /*Пол з верху*/
+}
+
+.menu_vertical li{
+/*padding:0 30px; /*Відступи для елементів списка*/
+min-height: 25px; /*Мінімальна висота*/
+font-family: Arial, sent-serif;
+font-size: 20px;
+}
+
+
+.menu_vertical li a{
+color:#f12434;
+padding: 0 30px;
+
+}
+
+.menu_vertical li a:hover{/*hover при наведені на силку*/
+}
+    
+.color{
+    color: #a6413e;
+}
+.color_silver{
+    color:#565555;
+}
+
+.color_red{
+    color:red;
+}
+    
+    
+    .border_right_red{
+        border-right: 3px solid red;
+    }
+    
+    .red_block{
+         border: 1px solid #f12434;
+         background: #f12434;
+         color:white;
+    }
+    
+    .silver_block{
+         background: #f1f1f1;
+    }
+    
+    color_silver{
+        color:#736b62;
+    }
+    
+    .align_center{
+        text-align: center;
+    }
+    
+.gradient {
+  background-image:
+    linear-gradient(
+      to right, 
+      #f12535, #f37b83
+    );
+}
+    
+a{
+    color:red;
+}
+
+.box{
+    position: relative;
+}
+
+.overlay    { 
+    background-color: black;
+    text-align:center;
+    color: #a6413e;
+    opacity:0;
+    height: 81px;
+    position: absolute;
+    bottom:182px;
+    display: block;
+    right: 0px;
+    left: 0px;
+    padding-top: 0px;
+    padding-left: 39px;
+    padding-bottom: 7px;
+}
+
+
+.box:hover .overlay {
+    opacity:0.6;      
+    background-color: white;
+}
+    
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
+.padding_top5{
+    padding-top: 5px;
+}
+
+.padding_top10{
+    padding-top: 10px;
+}
+
+.padding_top15{
+    padding-top: 15px;
+}
+
+.padding_top20{
+    padding-top: 20px;
+}
+
+.padding_top25{
+    padding-top: 25px;
+}
+
+.padding_top30{
+    padding-top: 30px;
+}
+
+.padding_top60{
+    padding-top: 60px;
+}
+
+
+
+
+
+
+.padding_left10{
+    padding-left: 10px;
+}
+
+.padding_left20{
+    padding-left: 20px;
+}
+
+.padding_left21{
+    padding-left: 21px;
+}
+
+.padding_left25{
+    padding-left: 25px;
+}
+
+.padding_left30{
+    padding-left: 30px;
+}
+
+.padding_left32{
+    padding-left: 32px;
+}
+
+.padding_left35{
+    padding-left: 35px;
+}
+
+.padding_left40{
+    padding-left: 40px;
+}
+
+.padding_left50{
+    padding-left: 50px;
+}
+
+.padding_left56{
+    padding-left: 56px;
+}
+
+.padding_left60{
+    padding-left: 60px;
+}
+
+.padding_left70{
+    padding-left: 70px;
+}
+
+.padding_left80{
+    padding-left: 80px;
+}
+
+.padding_left92{
+    padding-left: 92px;
+}
+
+.padding_left100{
+    padding-left: 100px;
+}
+
+.padding_left105{
+    padding-left: 105px;
+}
+
+.padding_left120{
+    padding-left: 120px;
+}
+
+.padding_left140{
+    padding-left: 140px;
+}
+
+.padding_left145{
+    padding-left: 145px;
+}
+
+.padding_left380{
+    padding-left: 380px;
+}
+
+
+
+
+.padding_right30{
+    padding-right:30px;
+}
+
+.padding_right35{
+    padding-right:35px;
+}
+
+.padding_right40{
+    padding-right:40px;
+}
+
+.padding_right45{
+    padding-right:45px;
+}
+
+.padding_right50{
+    padding-right:50px;
+}
+
+.padding_right55{
+    padding-right:55px;
+}
+
+.padding_right100{
+    padding-right:100px;
+}
+
+.padding_right180{
+    padding-right:180px;
+}
+
+
+
+.padding_bottom5{
+    padding-bottom: 5px;
+}
+
+.padding_bottom20{
+    padding-bottom: 20px;
+}
+
+
+.width20{
+    width: 20px;
+}
+
+.width25{
+    width: 25px;
+}
+
+.width30{
+    width: 30px;
+}
+
+.width35{
+    width: 35px;
+}
+
+.width60{
+    width: 60px;
+}
+
+.width75{
+    width: 75px;
+}
+
+.width100p{
+    width:100px;
+}
+
+.width7{
+    width:7%;
+}
+
+.width11{
+    width:11%;
+}
+
+.width86{
+    width:86%;
+}
+
+.width137{
+    width:137px;
+}
+
+.width13{
+    width:13%;
+}
+
+
+
+.width160{
+    width:155px;
+}
+
+.width14{
+    width:14%;
+}
+
+.width200{
+    width:213px;
+}
+
+.width215{
+    width: 215px;
+}
+
+.width250{
+    width: 250px;
+}
+
+.width325{
+    width:325px;
+}
+
+.width235{
+    width: 235px;
+}
+
+.width240{
+    width: 240px;
+}
+
+.width24{
+    width: 24%;
+}
+
+.width307{
+    width: 307px;
+}
+
+.width331{
+    width: 331px;
+}
+
+.width335{
+    width:335px;
+}
+
+.width360{
+    width: 360px;
+}
+.width437{
+    width: 437px;
+}
+
+.width420{
+    width: 420px;
+}
+
+.width400{
+    width: 400px;
+}
+
+.width444{
+    width: 444px;
+}
+
+.width480{
+    width: 480px;
+}
+
+.width580{
+    width: 580px;
+}
+
+.width621{
+    width: 621px;
+}
+
+.width85{
+    width:85%;
+}
+
+.width748{
+    width:748px;
+}
+
+.width750{
+    width:750px;
+}
+
+.width790{
+    width:790px;
+}
+
+.width888{
+    width:888px;
+    
+}
+
+.width74{
+    width:74%;
+    
+}
+
+.width1236{
+    width:1236px;
+    
+}
+
+.width100{
+    width:100%;
+ 
+}
+
+
+
+.height20{
+    height:20px;
+}
+
+.height30{
+    height:30px;
+}
+
+.height49{
+    height:49px;
+}
+
+.height50{
+    height:50px;
+}
+
+.height53{
+    height:53px;
+}
+
+.height60{
+    height:60px;
+}
+
+.height78{
+    height:78px;
+}
+
+.height85{
+    height:85px;
+}
+
+.height120{
+    height:120px;
+}
+
+.height130{
+    height:130px;
+}
+
+.height150{
+    height:150px;
+}
+
+.height170{
+    height:170px;
+}
+
+.height185{
+    height:185px;
+}
+
+.height181{
+    height:181px;
+}
+
+.height190{
+    height:190px;
+}
+
+.height200{
+    height:200px;
+}
+
+.height210{
+    height:210px;
+}
+
+.height220{
+    height:220px;
+}
+
+.height250{
+    height:250px;
+}
+
+.height270{
+    height:270px;
+}
+
+
+.height290{
+    height:290px;
+}
+
+.height320{
+    height:320px;
+}
+
+.height370{
+    height:370px;
+}
+
+.height380{
+    height:380px;
+}
+
+.height670{
+    height:670px;
+}
+
+.height1085{
+    height:1085px;
+   
+}
+
+.height1230{
+    height:1230px;
+   
+}
+
+.height1100{
+    height:1150px;
+   
+}
+
+.height1200{
+    height:1200px;
+}
+
+
+
+
+
+
+
+/*               
+            
+            
+                
+              
+                 
+
+                
+        </div>   */
